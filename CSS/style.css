@@ -1,0 +1,42 @@
+/* Body Rules */
+body {
+    margin: 0.5rem;
+    background-color: #93b8d7;
+    color: white;
+}
+
+/* Navigation Link Rules */
+nav {
+    color: white;
+    font-size: 2.5rem;
+    padding-right: .5em;
+}
+
+#social-links {
+    display: none;
+}
+
+nav a {
+    color: white;
+}
+
+/* Main Rules */
+main {
+    text-align: center;
+    font-family: Kaushan Script, fantasy;
+    margin-top: 23vh;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-top: 2em;
+}
+
+/* Footer Rules */
+footer {
+    display: none;
+}
