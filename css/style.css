@@ -1,0 +1,95 @@
+/* Body Rules */
+body {
+    margin: 0.5rem;
+    background-color: #93b8d7;
+    color: white;
+}
+
+/* Navigation Link Rules */
+nav a {
+    color: white;
+    font-size: 2.5rem;
+    margin-right: .5em;
+}
+
+#social-links {
+    display: none;
+}
+
+/* Main Rules */
+main {
+    text-align: center;
+    font-family: Kaushan Script, fantasy;
+    margin-top: 23vh;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-top: 2em;
+}
+
+/* Footer Rules */
+footer {
+    display: none;
+}
+
+/* On small screens Rules */
+@media (min-width: 598px) {
+    #hamburger-menu {
+        display: none;
+    }
+    #social-links {
+        display: block;
+    }
+}
+
+/* On medium screens Rules */
+@media (min-width: 768px) {
+    body {
+        background-image: url(../img/splash-md.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+}
+/* HTML Height Rules */
+html {
+    height: 100%;
+}
+/* Footer and Main Rules */
+footer {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+main {
+    text-shadow: 1px 1px 1px #153c43;
+}
+
+/* On large screens Rules */
+@media (min-width: 992px) {
+    body {
+        background-image: url(../img/splash-lg.jpg);
+    }
+    nav a {
+        font-size: 1.5rem;
+    }
+    h1 {
+        font-size: 5rem;
+    }
+    h2 {
+        font-size: 3rem;
+    }
+}
+
+/* On Xlarge screens Rules */
+@media (min-width: 1200px) {
+    body {
+        background-image: url(../img/splash-xl.jpg);
+    }
+}
